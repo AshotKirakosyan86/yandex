@@ -1,0 +1,27 @@
+
+
+Profile parser version 1.0 25.10.2016
+
+General usage notes
+
+- Use  program by running newYandex.py using Python3 
+- First command line argument must be the path of file containing profiles information
+ex. python3 newYandex.py profiles.json
+
+
+Input file structure
+
+
+- Content must be in json format starting with key profiles
+
+ex. {"profiles": [{"name":"Ashot Kirakosyan","age":30,"location":"Armenia","job":"","education":"","social_networks":["FB","OK"],"detailed_networks":["LinkedIn","Beon","Google+"]},
+{"name":"Aram Kirakosyan","age":"","location":"","job":"","education":"","social_networks":["FB"],"detailed_networks":["LinkedIn"]},
+{"name":"Vazgen Hakobjanyan","age":"","location":"","job":"","education":"","social_networks":"","detailed_networks":["LinkedIn"]}]}
+
+Installation of packages  and software
+
+- selenium (2.53.6)
+- beautifulsoup4 (4.5.1)
+- Google Chrome 53.0.2785.116 
+
+
